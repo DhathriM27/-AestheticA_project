@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: servicedesk-ticket-management-system
+    runtime: node
+    plan: free
+    buildCommand: npm run build
+    startCommand: npm start --prefix server
